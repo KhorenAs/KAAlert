@@ -7,522 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0525A234D5E46F52934EEBABB9DF810E /* Pods-KAAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 522532267A79AEDD62353C98AA70F7CC /* Pods-KAAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		17B03D5F6C3BBFE23131A301BD94A6A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
-		3418C5DF0CE2DC08429FBEE9FF04B089 /* KAAlertBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEBADD5876431F4613E09FA3571123 /* KAAlertBaseViewController.swift */; };
-		34C406771191BA093B15DAFD881D33D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		354FFA47218A73DA6C9C2EEB2DC01F2C /* Pods-KAAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4633CF1A6A4E738D28CEC7F4DC8A9926 /* Pods-KAAlert_Example-dummy.m */; };
-		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		67ABB48A730F853B61964EFF79C093A5 /* Pods-KAAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D81C887A585BE98909216B4713FC39 /* Pods-KAAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		6ED20B4194BCE3021B49D9F12FD58B45 /* KATransitioningAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47AA8F847841358E9AEFC34E79E02C /* KATransitioningAnimatorDelegate.swift */; };
-		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		786B8FE9EDA3A0CD49FAFF012D300994 /* KABlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D66094FA75E8E3B99F3B193640385 /* KABlurView.swift */; };
-		78A162BD5E565DB3568189D50B90749C /* Pods-KAAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7204AFC9B24515EC3F2EC5795B217 /* Pods-KAAlert_Tests-dummy.m */; };
-		7C99CA0F777C79954953B692FEEB2FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
-		A9C060ABCC7055757E193EC3D3C84EAA /* KAAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5693B55C0F332EFE18593749AD6F6B2 /* KAAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C362838F4EE177499684235278A267FC /* KAAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E0FC2ADC5D05EA002551E78D8AFFFD /* KAAlert-dummy.m */; };
-		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		E70F40AD6180E0037EE0C4099EE5B397 /* KATransitioningAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9708F8032D46815B2CD8D15A6BF9510B /* KATransitioningAnimator.swift */; };
-		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
-		F91F28422F28FE6096EE17682F305654 /* KASoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582C062923194ECAB0B914A355CAFEBE /* KASoundEffect.swift */; };
+		2676DE4E2FBA703F034454936B19E439 /* Pods-KAAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EB428A262448E1CF4BB84859D72DEB /* Pods-KAAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A492106E0A7949A474B291E6D02EAA /* Pods-KAAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A213716C712FB5E6C81C7EA103D0D18B /* Pods-KAAlert_Example-dummy.m */; };
+		DE2A5EADB7B238090A0FDF36A12E581B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		11892115DBBCBF8025C4EE7990A2C3FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD25DE0EB0A93770326C02616F2C8EA2;
-			remoteInfo = "Pods-KAAlert_Example";
-		};
-		77A1316101D3DF290028C44C65751174 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51A0D0FF6ADCAEA1C3344FB8F8F6B7EC;
-			remoteInfo = KAAlert;
-		};
-		B75A301F28B40AE9EA6C338A26F39500 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
-			remoteInfo = FBSnapshotTestCase;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0682F711136E95CDC3F4F678D893D45D /* KAAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KAAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5DB00B957B8662E5CF0A3D0B043B60 /* Pods-KAAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0DE888525DD7377E720E02A8B4266FF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		126F8907F84A6EB48F062657CB92E235 /* Pods-KAAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		28E9A20B671040FC95E45FBA34E3B696 /* KAAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KAAlert-prefix.pch"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		32EA2A93D39D7EBE772850AFC81C7857 /* Pods-KAAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3B7D66094FA75E8E3B99F3B193640385 /* KABlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KABlurView.swift; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		42FF2BBD77B03DDAD3F1622A62701466 /* Pods-KAAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Tests-resources.sh"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4633CF1A6A4E738D28CEC7F4DC8A9926 /* Pods-KAAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KAAlert_Example-dummy.m"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4A47AA8F847841358E9AEFC34E79E02C /* KATransitioningAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KATransitioningAnimatorDelegate.swift; sourceTree = "<group>"; };
-		522532267A79AEDD62353C98AA70F7CC /* Pods-KAAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KAAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
-		532B0CC19289806031DDB6B5E529F342 /* KAAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KAAlert.modulemap; sourceTree = "<group>"; };
-		532EEF63FCEC04CAFCAB9E11A9513D2F /* Pods_KAAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55EDA5B5F5F282C90DE22A81A4EB01B6 /* Pods-KAAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Example-resources.sh"; sourceTree = "<group>"; };
-		582C062923194ECAB0B914A355CAFEBE /* KASoundEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KASoundEffect.swift; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5C5181BFBDD5A57BDA17E2E724C15223 /* Pods-KAAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KAAlert_Example.modulemap"; sourceTree = "<group>"; };
-		5D433B41FB6FECFADC3BD9DEFFF37068 /* Pods-KAAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KAAlert_Tests.modulemap"; sourceTree = "<group>"; };
-		6313CC45F4C63B6234740922B5EF0448 /* Pods-KAAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KAAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DBAFA0F12D7D2E7F6347CA2D56217D3 /* KAAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KAAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		786BF9D6B27C563111A97165F08AFFEC /* KAAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KAAlert.xcconfig; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7C7A696F0B35A3B559A77ABBA9618730 /* Pods_KAAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9708F8032D46815B2CD8D15A6BF9510B /* KATransitioningAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KATransitioningAnimator.swift; sourceTree = "<group>"; };
-		99215FD97B4F2B3FF0DCBC31A7B6E3D5 /* Pods-KAAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A1E0FC2ADC5D05EA002551E78D8AFFFD /* KAAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KAAlert-dummy.m"; sourceTree = "<group>"; };
-		AFD747F312458711A5034922254C72A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C2BEBADD5876431F4613E09FA3571123 /* KAAlertBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KAAlertBaseViewController.swift; sourceTree = "<group>"; };
-		C98FE77472230F2B91A49C2BB4FD212B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1165E804760BB40386D4AEBA5A1FE37 /* Pods-KAAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		D8D81C887A585BE98909216B4713FC39 /* Pods-KAAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KAAlert_Example-umbrella.h"; sourceTree = "<group>"; };
-		D920EA9E6994CB143BDE944FED7ACE89 /* Pods-KAAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DEE7204AFC9B24515EC3F2EC5795B217 /* Pods-KAAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KAAlert_Tests-dummy.m"; sourceTree = "<group>"; };
-		E2B77C289622ABDC1B91B0D94CF3C364 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E5693B55C0F332EFE18593749AD6F6B2 /* KAAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KAAlert-umbrella.h"; sourceTree = "<group>"; };
-		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EB9011357D7D788696A78DA535CA406C /* Pods-KAAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KAAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ECD4A95054641F0A71B9214F15324946 /* Pods-KAAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F3CC34DAC11D58F41C47064E4109C673 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F41774A223C1F7BCD0CB819411EA8E75 /* Pods-KAAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC774A6D64C3A9D6A7CCFDC25587CCAC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		263FDFD9FDBC9A13C44C34D2A5D1719D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB8388A2EBAA63ED0108234CDF72BF3 /* Pods-KAAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KAAlert_Example.modulemap"; sourceTree = "<group>"; };
+		534A03FF711CC887FD1C6B634348CC59 /* Pods-KAAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AF0E0A4B745EF581E5A6F0CFDB86796 /* Pods-KAAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79264E09796556E03AD76EC2E34B7DAB /* Pods-KAAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15D5A79FCD7A8D25D1A48774A5BBD0C /* Pods-KAAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A213716C712FB5E6C81C7EA103D0D18B /* Pods-KAAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KAAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		A4529063E3CE9A971C2849A2A4EDAE86 /* Pods_KAAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KAAlert_Example.framework; path = "Pods-KAAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EB428A262448E1CF4BB84859D72DEB /* Pods-KAAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KAAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		E8FBB6C67F03CC34470557437F4B8880 /* Pods-KAAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KAAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9659E548377A20C8B73EA926C4EEFE5 /* Pods-KAAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06A086085916D88E8F989A2FD78DFDFB /* Frameworks */ = {
+		753BBD2466E0AD3DF10C9F135102598C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */,
-				293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */,
-				F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */,
-				9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30CA66D196EE86BD52BEAB030522F673 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34C406771191BA093B15DAFD881D33D2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4FD62757A004EC93B8FFF179CCF88799 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C99CA0F777C79954953B692FEEB2FD7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AF268182F51DBA9B5AA0F14DE0310A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17B03D5F6C3BBFE23131A301BD94A6A5 /* Foundation.framework in Frameworks */,
+				DE2A5EADB7B238090A0FDF36A12E581B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		18E6C364A0BCD5D38BCF54E956DEB0EC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
+				66A1A0516BE90F50D3F3095835CF33C8 /* Pods-KAAlert_Example */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		2BABC44D631A498BD0F64457F45A9857 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		35D233A58747C50D2979F6178EFB1710 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3CC34DAC11D58F41C47064E4109C673 /* Info.plist */,
-				532B0CC19289806031DDB6B5E529F342 /* KAAlert.modulemap */,
-				786BF9D6B27C563111A97165F08AFFEC /* KAAlert.xcconfig */,
-				A1E0FC2ADC5D05EA002551E78D8AFFFD /* KAAlert-dummy.m */,
-				28E9A20B671040FC95E45FBA34E3B696 /* KAAlert-prefix.pch */,
-				E5693B55C0F332EFE18593749AD6F6B2 /* KAAlert-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KAAlert";
-			sourceTree = "<group>";
-		};
-		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */,
-				D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */,
-				BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */,
-				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5ADFC473C23111FFBE036B371E1865AB /* ViewCntroller */ = {
-			isa = PBXGroup;
-			children = (
-				C2BEBADD5876431F4613E09FA3571123 /* KAAlertBaseViewController.swift */,
-			);
-			name = ViewCntroller;
-			path = KAAlert/Classes/ViewCntroller;
-			sourceTree = "<group>";
-		};
-		67B322DA1DDD737637CA52DE9CCB3311 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC774A6D64C3A9D6A7CCFDC25587CCAC /* FBSnapshotTestCase.framework */,
-				0682F711136E95CDC3F4F678D893D45D /* KAAlert.framework */,
-				532EEF63FCEC04CAFCAB9E11A9513D2F /* Pods_KAAlert_Example.framework */,
-				7C7A696F0B35A3B559A77ABBA9618730 /* Pods_KAAlert_Tests.framework */,
+				A4529063E3CE9A971C2849A2A4EDAE86 /* Pods_KAAlert_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73E9CE6F9B83C167C6FE285FAEB1E136 /* Targets Support Files */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				85ABDD29A6003C42535F2AA695C9F772 /* Pods-KAAlert_Example */,
-				CA11FE2FAB0AFE589B56B5CDE3C15BE2 /* Pods-KAAlert_Tests */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66A1A0516BE90F50D3F3095835CF33C8 /* Pods-KAAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				263FDFD9FDBC9A13C44C34D2A5D1719D /* Info.plist */,
+				3EB8388A2EBAA63ED0108234CDF72BF3 /* Pods-KAAlert_Example.modulemap */,
+				E8FBB6C67F03CC34470557437F4B8880 /* Pods-KAAlert_Example-acknowledgements.markdown */,
+				F9659E548377A20C8B73EA926C4EEFE5 /* Pods-KAAlert_Example-acknowledgements.plist */,
+				A213716C712FB5E6C81C7EA103D0D18B /* Pods-KAAlert_Example-dummy.m */,
+				534A03FF711CC887FD1C6B634348CC59 /* Pods-KAAlert_Example-frameworks.sh */,
+				79264E09796556E03AD76EC2E34B7DAB /* Pods-KAAlert_Example-resources.sh */,
+				E2EB428A262448E1CF4BB84859D72DEB /* Pods-KAAlert_Example-umbrella.h */,
+				5AF0E0A4B745EF581E5A6F0CFDB86796 /* Pods-KAAlert_Example.debug.xcconfig */,
+				A15D5A79FCD7A8D25D1A48774A5BBD0C /* Pods-KAAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-KAAlert_Example";
+			path = "Target Support Files/Pods-KAAlert_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D1F01A910703AA514652C901E122AC04 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				67B322DA1DDD737637CA52DE9CCB3311 /* Products */,
-				73E9CE6F9B83C167C6FE285FAEB1E136 /* Targets Support Files */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2BABC44D631A498BD0F64457F45A9857 /* Products */,
+				18E6C364A0BCD5D38BCF54E956DEB0EC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		85ABDD29A6003C42535F2AA695C9F772 /* Pods-KAAlert_Example */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFD747F312458711A5034922254C72A6 /* Info.plist */,
-				5C5181BFBDD5A57BDA17E2E724C15223 /* Pods-KAAlert_Example.modulemap */,
-				6313CC45F4C63B6234740922B5EF0448 /* Pods-KAAlert_Example-acknowledgements.markdown */,
-				F41774A223C1F7BCD0CB819411EA8E75 /* Pods-KAAlert_Example-acknowledgements.plist */,
-				4633CF1A6A4E738D28CEC7F4DC8A9926 /* Pods-KAAlert_Example-dummy.m */,
-				D1165E804760BB40386D4AEBA5A1FE37 /* Pods-KAAlert_Example-frameworks.sh */,
-				55EDA5B5F5F282C90DE22A81A4EB01B6 /* Pods-KAAlert_Example-resources.sh */,
-				D8D81C887A585BE98909216B4713FC39 /* Pods-KAAlert_Example-umbrella.h */,
-				ECD4A95054641F0A71B9214F15324946 /* Pods-KAAlert_Example.debug.xcconfig */,
-				0A5DB00B957B8662E5CF0A3D0B043B60 /* Pods-KAAlert_Example.release.xcconfig */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
-			name = "Pods-KAAlert_Example";
-			path = "Target Support Files/Pods-KAAlert_Example";
-			sourceTree = "<group>";
-		};
-		898E8193825A0B294A36F4CE09618CF2 /* Animator */ = {
-			isa = PBXGroup;
-			children = (
-				9708F8032D46815B2CD8D15A6BF9510B /* KATransitioningAnimator.swift */,
-				4A47AA8F847841358E9AEFC34E79E02C /* KATransitioningAnimatorDelegate.swift */,
-			);
-			name = Animator;
-			path = KAAlert/Classes/Animator;
-			sourceTree = "<group>";
-		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		A6EAF348E418365FD45D04178F22FEA6 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				582C062923194ECAB0B914A355CAFEBE /* KASoundEffect.swift */,
-			);
-			name = Sound;
-			path = KAAlert/Classes/Sound;
-			sourceTree = "<group>";
-		};
-		B61CA3CEC6819EDF18CAAACCA00E5A43 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3B7D66094FA75E8E3B99F3B193640385 /* KABlurView.swift */,
-			);
-			name = View;
-			path = KAAlert/Classes/View;
-			sourceTree = "<group>";
-		};
-		CA11FE2FAB0AFE589B56B5CDE3C15BE2 /* Pods-KAAlert_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C98FE77472230F2B91A49C2BB4FD212B /* Info.plist */,
-				5D433B41FB6FECFADC3BD9DEFFF37068 /* Pods-KAAlert_Tests.modulemap */,
-				EB9011357D7D788696A78DA535CA406C /* Pods-KAAlert_Tests-acknowledgements.markdown */,
-				32EA2A93D39D7EBE772850AFC81C7857 /* Pods-KAAlert_Tests-acknowledgements.plist */,
-				DEE7204AFC9B24515EC3F2EC5795B217 /* Pods-KAAlert_Tests-dummy.m */,
-				99215FD97B4F2B3FF0DCBC31A7B6E3D5 /* Pods-KAAlert_Tests-frameworks.sh */,
-				42FF2BBD77B03DDAD3F1622A62701466 /* Pods-KAAlert_Tests-resources.sh */,
-				522532267A79AEDD62353C98AA70F7CC /* Pods-KAAlert_Tests-umbrella.h */,
-				D920EA9E6994CB143BDE944FED7ACE89 /* Pods-KAAlert_Tests.debug.xcconfig */,
-				126F8907F84A6EB48F062657CB92E235 /* Pods-KAAlert_Tests.release.xcconfig */,
-			);
-			name = "Pods-KAAlert_Tests";
-			path = "Target Support Files/Pods-KAAlert_Tests";
-			sourceTree = "<group>";
-		};
-		D1F01A910703AA514652C901E122AC04 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EECAE00860D019ADE5438D479470850C /* KAAlert */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E85DCDB94B2C2F91A82566F8B4E01382 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6DBAFA0F12D7D2E7F6347CA2D56217D3 /* KAAlert.podspec */,
-				E2B77C289622ABDC1B91B0D94CF3C364 /* LICENSE */,
-				0DE888525DD7377E720E02A8B4266FF7 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EECAE00860D019ADE5438D479470850C /* KAAlert */ = {
-			isa = PBXGroup;
-			children = (
-				898E8193825A0B294A36F4CE09618CF2 /* Animator */,
-				E85DCDB94B2C2F91A82566F8B4E01382 /* Pod */,
-				A6EAF348E418365FD45D04178F22FEA6 /* Sound */,
-				35D233A58747C50D2979F6178EFB1710 /* Support Files */,
-				B61CA3CEC6819EDF18CAAACCA00E5A43 /* View */,
-				5ADFC473C23111FFBE036B371E1865AB /* ViewCntroller */,
-			);
-			name = KAAlert;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E54617349C29FCE800A506456E0E61A /* Headers */ = {
+		70ED4338F9AB2A269B4994CF4EF1FE04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67ABB48A730F853B61964EFF79C093A5 /* Pods-KAAlert_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */,
-				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
-				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
-				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
-				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
-				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
-				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
-				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABB9315C778DD288359361D27FE7CCE8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9C060ABCC7055757E193EC3D3C84EAA /* KAAlert-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E51F2DB5FD0C9ED70EFC7D6FB5AC9652 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0525A234D5E46F52934EEBABB9DF810E /* Pods-KAAlert_Tests-umbrella.h in Headers */,
+				2676DE4E2FBA703F034454936B19E439 /* Pods-KAAlert_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25ED67193B060657106387D84DF8E417 /* Pods-KAAlert_Tests */ = {
+		6E8AEFAC929AEC92D7A0867E9762D327 /* Pods-KAAlert_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED60C6B023070C408E09EB15FB36F9E3 /* Build configuration list for PBXNativeTarget "Pods-KAAlert_Tests" */;
+			buildConfigurationList = 6FFD2F84A6302C9C2A9DC2B1F8CCC8E0 /* Build configuration list for PBXNativeTarget "Pods-KAAlert_Example" */;
 			buildPhases = (
-				E51F2DB5FD0C9ED70EFC7D6FB5AC9652 /* Headers */,
-				6F71F21830E2706C6DAFC07DEEC69EEE /* Sources */,
-				4FD62757A004EC93B8FFF179CCF88799 /* Frameworks */,
-				4D90D99052EED00AF1C3FA2A0F8C28AD /* Resources */,
+				70ED4338F9AB2A269B4994CF4EF1FE04 /* Headers */,
+				50973DBF29AAD4495BD63281FEA4444E /* Sources */,
+				753BBD2466E0AD3DF10C9F135102598C /* Frameworks */,
+				7F12A40CCBD0B544BFE48FF446C9392E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96335D4E05FA7C5991A72664759D1D58 /* PBXTargetDependency */,
-				A4820EE420A11C712EC033117C60B9BD /* PBXTargetDependency */,
-			);
-			name = "Pods-KAAlert_Tests";
-			productName = "Pods-KAAlert_Tests";
-			productReference = 7C7A696F0B35A3B559A77ABBA9618730 /* Pods_KAAlert_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		51A0D0FF6ADCAEA1C3344FB8F8F6B7EC /* KAAlert */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FBA508664B5BCD608E9085DC0A058BAF /* Build configuration list for PBXNativeTarget "KAAlert" */;
-			buildPhases = (
-				ABB9315C778DD288359361D27FE7CCE8 /* Headers */,
-				D478D2A6082231AC6E67218BACF9E533 /* Sources */,
-				30CA66D196EE86BD52BEAB030522F673 /* Frameworks */,
-				543E3CDB338B3FC59FA2976D9DAB95C5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KAAlert;
-			productName = KAAlert;
-			productReference = 0682F711136E95CDC3F4F678D893D45D /* KAAlert.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */,
-				533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */,
-				06A086085916D88E8F989A2FD78DFDFB /* Frameworks */,
-				AD4E4321B395852DC07143FDAF5069AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = FC774A6D64C3A9D6A7CCFDC25587CCAC /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AD25DE0EB0A93770326C02616F2C8EA2 /* Pods-KAAlert_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA70CF2B3D39EFA8173E9C945588A1A /* Build configuration list for PBXNativeTarget "Pods-KAAlert_Example" */;
-			buildPhases = (
-				0E54617349C29FCE800A506456E0E61A /* Headers */,
-				ED48E9F60758C679FE654802E3855D67 /* Sources */,
-				6AF268182F51DBA9B5AA0F14DE0310A7 /* Frameworks */,
-				CF506C87D5EF05DC711AC95C0EB2FBA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DE28C8CBBB18DCAE186E43C04D6F0FD /* PBXTargetDependency */,
 			);
 			name = "Pods-KAAlert_Example";
 			productName = "Pods-KAAlert_Example";
-			productReference = 532EEF63FCEC04CAFCAB9E11A9513D2F /* Pods_KAAlert_Example.framework */;
+			productReference = A4529063E3CE9A971C2849A2A4EDAE86 /* Pods_KAAlert_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -532,57 +139,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					51A0D0FF6ADCAEA1C3344FB8F8F6B7EC = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 67B322DA1DDD737637CA52DE9CCB3311 /* Products */;
+			productRefGroup = 2BABC44D631A498BD0F64457F45A9857 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
-				51A0D0FF6ADCAEA1C3344FB8F8F6B7EC /* KAAlert */,
-				AD25DE0EB0A93770326C02616F2C8EA2 /* Pods-KAAlert_Example */,
-				25ED67193B060657106387D84DF8E417 /* Pods-KAAlert_Tests */,
+				6E8AEFAC929AEC92D7A0867E9762D327 /* Pods-KAAlert_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D90D99052EED00AF1C3FA2A0F8C28AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		543E3CDB338B3FC59FA2976D9DAB95C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF506C87D5EF05DC711AC95C0EB2FBA4 /* Resources */ = {
+		7F12A40CCBD0B544BFE48FF446C9392E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -592,112 +169,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
+		50973DBF29AAD4495BD63281FEA4444E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
-				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
-				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
-				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
-				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
-				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
-				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
-				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
-				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F71F21830E2706C6DAFC07DEEC69EEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78A162BD5E565DB3568189D50B90749C /* Pods-KAAlert_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D478D2A6082231AC6E67218BACF9E533 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C362838F4EE177499684235278A267FC /* KAAlert-dummy.m in Sources */,
-				3418C5DF0CE2DC08429FBEE9FF04B089 /* KAAlertBaseViewController.swift in Sources */,
-				786B8FE9EDA3A0CD49FAFF012D300994 /* KABlurView.swift in Sources */,
-				F91F28422F28FE6096EE17682F305654 /* KASoundEffect.swift in Sources */,
-				E70F40AD6180E0037EE0C4099EE5B397 /* KATransitioningAnimator.swift in Sources */,
-				6ED20B4194BCE3021B49D9F12FD58B45 /* KATransitioningAnimatorDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED48E9F60758C679FE654802E3855D67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				354FFA47218A73DA6C9C2EEB2DC01F2C /* Pods-KAAlert_Example-dummy.m in Sources */,
+				85A492106E0A7949A474B291E6D02EAA /* Pods-KAAlert_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3DE28C8CBBB18DCAE186E43C04D6F0FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KAAlert;
-			target = 51A0D0FF6ADCAEA1C3344FB8F8F6B7EC /* KAAlert */;
-			targetProxy = 77A1316101D3DF290028C44C65751174 /* PBXContainerItemProxy */;
-		};
-		96335D4E05FA7C5991A72664759D1D58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
-			targetProxy = B75A301F28B40AE9EA6C338A26F39500 /* PBXContainerItemProxy */;
-		};
-		A4820EE420A11C712EC033117C60B9BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KAAlert_Example";
-			target = AD25DE0EB0A93770326C02616F2C8EA2 /* Pods-KAAlert_Example */;
-			targetProxy = 11892115DBBCBF8025C4EE7990A2C3FD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		017AE61A6B48100461901F80776083DD /* Release */ = {
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 786BF9D6B27C563111A97165F08AFFEC /* KAAlert.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KAAlert/KAAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KAAlert/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KAAlert/KAAlert.modulemap";
-				PRODUCT_MODULE_NAME = KAAlert;
-				PRODUCT_NAME = KAAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		0991EC2649E141171EA68B512E8826EF /* Debug */ = {
+		7239C823E2C8E09D250462D75CF60996 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 5AF0E0A4B745EF581E5A6F0CFDB86796 /* Pods-KAAlert_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,45 +254,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAAlert_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		18EB2B3D78FB31505CC5A7478B564566 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 126F8907F84A6EB48F062657CB92E235 /* Pods-KAAlert_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KAAlert_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KAAlert_Tests/Pods-KAAlert_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KAAlert_Example/Pods-KAAlert_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -753,19 +267,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -815,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -826,139 +337,12 @@
 			};
 			name = Debug;
 		};
-		B09E83F02CA4A25AED0210CF718388C5 /* Release */ = {
+		8FECC7BB1FD971D1DF08042991AE4C50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C204D832CE9928F58BA5A004E1D25C1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D920EA9E6994CB143BDE944FED7ACE89 /* Pods-KAAlert_Tests.debug.xcconfig */;
+			baseConfigurationReference = A15D5A79FCD7A8D25D1A48774A5BBD0C /* Pods-KAAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KAAlert_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KAAlert_Tests/Pods-KAAlert_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D296580B145C5E35E86FAB8A5BFE316D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A5DB00B957B8662E5CF0A3D0B043B60 /* Pods-KAAlert_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -970,7 +354,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KAAlert_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KAAlert_Example/Pods-KAAlert_Example.modulemap";
@@ -981,80 +365,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		DAD2FCB9953223BA344A82C68E219796 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 786BF9D6B27C563111A97165F08AFFEC /* KAAlert.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KAAlert/KAAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KAAlert/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KAAlert/KAAlert.modulemap";
-				PRODUCT_MODULE_NAME = KAAlert;
-				PRODUCT_NAME = KAAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED1FAB83A94ED50571F29E41673B6939 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECD4A95054641F0A71B9214F15324946 /* Pods-KAAlert_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KAAlert_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KAAlert_Example/Pods-KAAlert_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1062,44 +378,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
-				C4EAA84F44D044E108500A81C635F21E /* Release */,
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BA70CF2B3D39EFA8173E9C945588A1A /* Build configuration list for PBXNativeTarget "Pods-KAAlert_Example" */ = {
+		6FFD2F84A6302C9C2A9DC2B1F8CCC8E0 /* Build configuration list for PBXNativeTarget "Pods-KAAlert_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED1FAB83A94ED50571F29E41673B6939 /* Debug */,
-				D296580B145C5E35E86FAB8A5BFE316D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0991EC2649E141171EA68B512E8826EF /* Debug */,
-				B09E83F02CA4A25AED0210CF718388C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED60C6B023070C408E09EB15FB36F9E3 /* Build configuration list for PBXNativeTarget "Pods-KAAlert_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C204D832CE9928F58BA5A004E1D25C1C /* Debug */,
-				18EB2B3D78FB31505CC5A7478B564566 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FBA508664B5BCD608E9085DC0A058BAF /* Build configuration list for PBXNativeTarget "KAAlert" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAD2FCB9953223BA344A82C68E219796 /* Debug */,
-				017AE61A6B48100461901F80776083DD /* Release */,
+				7239C823E2C8E09D250462D75CF60996 /* Debug */,
+				8FECC7BB1FD971D1DF08042991AE4C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
