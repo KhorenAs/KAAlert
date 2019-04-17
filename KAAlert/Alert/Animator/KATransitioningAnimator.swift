@@ -26,7 +26,7 @@ class KATransitioningAnimator: NSObject {
     private(set) weak var toViewController: UIViewController?
     private(set) var isPresent: Bool = true
    
-    weak var deleagte: ITransitioningAnimator?
+    weak var deleagte: KATransitioningAnimatorDelegate?
     var animatorSettings: Settings = Settings()
     var transitionSizeScale:CGFloat = 0.5
     
@@ -64,7 +64,6 @@ class KATransitioningAnimator: NSObject {
     
     @objc private func adjustForKeyboard(notification: Notification) {
         guard let userInfo = notification.userInfo else {
-            WTLogger.sharedInstance.error("userInfo must me nil")
             return
         }
         let keyboardScreenEndFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
@@ -226,8 +225,8 @@ extension KATransitioningAnimator: UIViewControllerAnimatedTransitioning {
         if let backgroundView = self.deleagte?.backgroundView(transitioningAnimator: self) {
            resultBackgroundView = backgroundView
         } else {
-            let blurView = WTBlurView(frame: frame)
-            blurView.colorTint = WTTeme.blackColor()
+            let blurView = KABlurView(frame: frame)
+            blurView.colorTint = UIColor.black
             blurView.colorTintAlpha = 1
             blurView.blurRadius = 50
             blurView.saturationDeltaFactor = 0.1

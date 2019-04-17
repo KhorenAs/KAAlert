@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D906E558AE83BA435A5D596 /* Pods_KAAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AF6DDBF8A3DC168A2741FF /* Pods_KAAlert.framework */; };
 		9D18657F22660B16006575D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18657E22660B16006575D0 /* AppDelegate.swift */; };
 		9D18658122660B16006575D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18658022660B16006575D0 /* ViewController.swift */; };
 		9D18658422660B16006575D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D18658222660B16006575D0 /* Main.storyboard */; };
 		9D18658622660B17006575D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D18658522660B17006575D0 /* Assets.xcassets */; };
 		9D18658922660B17006575D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D18658722660B17006575D0 /* LaunchScreen.storyboard */; };
+		9D9BC4E422660F7E0062617F /* KATransitioningAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9BC4E222660F7E0062617F /* KATransitioningAnimator.swift */; };
+		9D9BC4E522660F7E0062617F /* KATransitioningAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9BC4E322660F7E0062617F /* KATransitioningAnimatorDelegate.swift */; };
+		9D9BC4E8226611280062617F /* KASoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9BC4E7226611280062617F /* KASoundEffect.swift */; };
+		9D9BC4EA22662F2C0062617F /* KABlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9BC4E922662F2C0062617F /* KABlurView.swift */; };
+		9D9BC4EF22662F8D0062617F /* KAAlertBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9BC4EE22662F8D0062617F /* KAAlertBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28AF6DDBF8A3DC168A2741FF /* Pods_KAAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEF58EDEA209EBB8E895A6E /* Pods-KAAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KAAlert/Pods-KAAlert.debug.xcconfig"; sourceTree = "<group>"; };
 		9D18657B22660B16006575D0 /* KAAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D18657E22660B16006575D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D18658022660B16006575D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		9D18658522660B17006575D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D18658822660B17006575D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D18658A22660B17006575D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9BC4E222660F7E0062617F /* KATransitioningAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KATransitioningAnimator.swift; sourceTree = "<group>"; };
+		9D9BC4E322660F7E0062617F /* KATransitioningAnimatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KATransitioningAnimatorDelegate.swift; sourceTree = "<group>"; };
+		9D9BC4E7226611280062617F /* KASoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KASoundEffect.swift; sourceTree = "<group>"; };
+		9D9BC4E922662F2C0062617F /* KABlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KABlurView.swift; sourceTree = "<group>"; };
+		9D9BC4EE22662F8D0062617F /* KAAlertBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KAAlertBaseViewController.swift; sourceTree = "<group>"; };
+		A3CCF659C32833F3B3D008E5 /* Pods-KAAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-KAAlert/Pods-KAAlert.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D906E558AE83BA435A5D596 /* Pods_KAAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253646FAAFA6BEC13622849C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28AF6DDBF8A3DC168A2741FF /* Pods_KAAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58401CD6F12FDE676F9D6924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BEF58EDEA209EBB8E895A6E /* Pods-KAAlert.debug.xcconfig */,
+				A3CCF659C32833F3B3D008E5 /* Pods-KAAlert.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D18657222660B16006575D0 = {
 			isa = PBXGroup;
 			children = (
 				9D18657D22660B16006575D0 /* KAAlert */,
 				9D18657C22660B16006575D0 /* Products */,
+				58401CD6F12FDE676F9D6924 /* Pods */,
+				253646FAAFA6BEC13622849C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +88,7 @@
 		9D18657D22660B16006575D0 /* KAAlert */ = {
 			isa = PBXGroup;
 			children = (
+				9D18659022660B2A006575D0 /* Alert */,
 				9D18657E22660B16006575D0 /* AppDelegate.swift */,
 				9D18658022660B16006575D0 /* ViewController.swift */,
 				9D18658222660B16006575D0 /* Main.storyboard */,
@@ -64,6 +99,50 @@
 			path = KAAlert;
 			sourceTree = "<group>";
 		};
+		9D18659022660B2A006575D0 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BC4ED22662F8D0062617F /* ViewCntroller */,
+				9D9BC4E6226610F00062617F /* Sound */,
+				9D18659922660DDC006575D0 /* Animator */,
+				9D18659122660CD9006575D0 /* View */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		9D18659122660CD9006575D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BC4E922662F2C0062617F /* KABlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D18659922660DDC006575D0 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BC4E222660F7E0062617F /* KATransitioningAnimator.swift */,
+				9D9BC4E322660F7E0062617F /* KATransitioningAnimatorDelegate.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		9D9BC4E6226610F00062617F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BC4E7226611280062617F /* KASoundEffect.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		9D9BC4ED22662F8D0062617F /* ViewCntroller */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BC4EE22662F8D0062617F /* KAAlertBaseViewController.swift */,
+			);
+			path = ViewCntroller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D18658D22660B17006575D0 /* Build configuration list for PBXNativeTarget "KAAlert" */;
 			buildPhases = (
+				6CD3FAE28C20A78AD46B4D43 /* [CP] Check Pods Manifest.lock */,
 				9D18657722660B16006575D0 /* Sources */,
 				9D18657822660B16006575D0 /* Frameworks */,
 				9D18657922660B16006575D0 /* Resources */,
@@ -90,6 +170,7 @@
 		9D18657322660B16006575D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KA;
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Asatryasn;
@@ -130,13 +211,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CD3FAE28C20A78AD46B4D43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D18657722660B16006575D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D18658122660B16006575D0 /* ViewController.swift in Sources */,
+				9D9BC4EA22662F2C0062617F /* KABlurView.swift in Sources */,
 				9D18657F22660B16006575D0 /* AppDelegate.swift in Sources */,
+				9D9BC4E422660F7E0062617F /* KATransitioningAnimator.swift in Sources */,
+				9D9BC4E8226611280062617F /* KASoundEffect.swift in Sources */,
+				9D9BC4EF22662F8D0062617F /* KAAlertBaseViewController.swift in Sources */,
+				9D9BC4E522660F7E0062617F /* KATransitioningAnimatorDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +391,11 @@
 		};
 		9D18658E22660B17006575D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEF58EDEA209EBB8E895A6E /* Pods-KAAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNJ986BY72;
 				INFOPLIST_FILE = KAAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +410,11 @@
 		};
 		9D18658F22660B17006575D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CCF659C32833F3B3D008E5 /* Pods-KAAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNJ986BY72;
 				INFOPLIST_FILE = KAAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
