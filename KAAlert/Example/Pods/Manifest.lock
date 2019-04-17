@@ -1,0 +1,16 @@
+PODS:
+  - KAAlert (0.1.0)
+
+DEPENDENCIES:
+  - KAAlert (from `../`)
+
+EXTERNAL SOURCES:
+  KAAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KAAlert: bf1b4c76bc73b65151316af5f4987101ca84f5b5
+
+PODFILE CHECKSUM: 6bb2afca4c61673e83f531c79a283254822216d7
+
+COCOAPODS: 1.5.3
