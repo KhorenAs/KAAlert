@@ -44,6 +44,7 @@ class KASoundEffect {
         let feedbackGenerator = UIImpactFeedbackGenerator(style: style)
         feedbackGenerator.prepare()
         feedbackGenerator.impactOccurred()
+        
     }
 
     private class func playSoundChanged() {
