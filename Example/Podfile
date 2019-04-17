@@ -1,11 +1,5 @@
 use_frameworks!
 
 target 'KAAlert_Example' do
-  pod 'KAAlert', :path => '../'
-
-  target 'KAAlert_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
+  pod 'KAAlert'
 end
