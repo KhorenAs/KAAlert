@@ -13,6 +13,7 @@
 		601E35987C8915A24512A2ABFE37DEAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		67ABB48A730F853B61964EFF79C093A5 /* Pods-KAAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D81C887A585BE98909216B4713FC39 /* Pods-KAAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BA48FF60BFEDCBEF775465F14E69228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9DEF0BDC226898BB00E840F9 /* ViewControllerr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF0BDB226898BB00E840F9 /* ViewControllerr.swift */; };
 		9DEFF0D62267BF6A007966C9 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFF0D52267BF6A007966C9 /* Test.swift */; };
 		A7F53BAC4D56E87039DCF0FA4E39DA6C /* Pods-KAAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7204AFC9B24515EC3F2EC5795B217 /* Pods-KAAlert_Tests-dummy.m */; };
 		EAF6BD25160128214D81FA626188984A /* Pods-KAAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 522532267A79AEDD62353C98AA70F7CC /* Pods-KAAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +60,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99215FD97B4F2B3FF0DCBC31A7B6E3D5 /* Pods-KAAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9C3C2754244E857850A317B8CBF1F1E6 /* KAAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KAAlert.xcconfig; sourceTree = "<group>"; };
+		9DEF0BDB226898BB00E840F9 /* ViewControllerr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerr.swift; sourceTree = "<group>"; };
 		9DEFF0D52267BF6A007966C9 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		A3CDC7D85F8001A65BB221B841026814 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82F6D64B7AEE2B977C7D1FB1FA7FF78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				4B216DF9E7F60DE40CFAE07B49B72022 /* Pod */,
 				502DF5DC2358063D255639E2D4A86E07 /* Support Files */,
 				9DEFF0D52267BF6A007966C9 /* Test.swift */,
+				9DEF0BDB226898BB00E840F9 /* ViewControllerr.swift */,
 			);
 			name = KAAlert;
 			path = ../..;
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E275DAA6064DFD5994C94300F32558 /* KAAlert-dummy.m in Sources */,
+				9DEF0BDC226898BB00E840F9 /* ViewControllerr.swift in Sources */,
 				EC625D747663FD856039A3848FD2B2FA /* ReplaceMe.swift in Sources */,
 				9DEFF0D62267BF6A007966C9 /* Test.swift in Sources */,
 			);
