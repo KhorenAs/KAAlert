@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KAAlert'
-  s.version          = '0.1.0'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of KAAlert.'
   s.swift_version    = '5.0'
   s.platform         = :ios

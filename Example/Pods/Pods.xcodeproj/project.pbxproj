@@ -177,10 +177,10 @@
 		7FF554442AAE5DC2C80D8795F115EC2C /* KAAlert */ = {
 			isa = PBXGroup;
 			children = (
+				9DEFF0D52267BF6A007966C9 /* Test.swift */,
 				37509B829B2A6A6742C0C417883E9F1D /* ReplaceMe.swift */,
 				4B216DF9E7F60DE40CFAE07B49B72022 /* Pod */,
 				502DF5DC2358063D255639E2D4A86E07 /* Support Files */,
-				9DEFF0D52267BF6A007966C9 /* Test.swift */,
 			);
 			name = KAAlert;
 			path = ../..;
